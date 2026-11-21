@@ -1,6 +1,6 @@
 # Product Experimentation & Funnel Analytics
 
-End-to-end product analytics case study using SQL, dbt, Python and Looker Studio to model a customer conversion funnel, evaluate an A/B product experiment and translate analytical findings into product recommendations.
+End-to-end product analytics case study using SQL, dbt, Python, Looker Studio, and JavaScript to model a customer conversion funnel, evaluate an A/B experiment, and translate analytical findings into product recommendations.
 
 ## Project Overview
 
@@ -9,6 +9,20 @@ This project analyzes a simulated customer journey for a consumer fintech produc
 The analysis evaluates whether a personalized product recommendation experience improves customer activation and application conversion compared with the existing experience.
 
 The project combines customer, acquisition and application data into an analytics-ready dbt model and evaluates product performance across experiment variants, platforms and acquisition channels.
+
+## Live Interactive Dashboard
+
+**[View the Product Experimentation Dashboard](https://ishgup22.github.io/Product-experimentation-funnel-analytics/)**
+
+Explore the A/B experiment results through an interactive dashboard comparing control and treatment conversion rates, absolute and relative lift, and experiment performance.
+
+**Key results:**
+- Control conversion rate: **20.55%**
+- Treatment conversion rate: **22.92%**
+- Absolute conversion lift: **+2.37 percentage points**
+- Relative conversion lift: **+11.54%**
+
+The dashboard is built using HTML and JavaScript and presents results from the simulated experiment dataset.
 
 ## Business Questions
 
@@ -32,6 +46,8 @@ The analysis focuses on five questions:
 - matplotlib
 - Looker Studio
 - Git / GitHub
+- HTML
+- JavaScript
 
 ## Data
 
@@ -203,5 +219,6 @@ product-experimentation-funnel-analytics/
 ├── dashboard/
 ├── docs/
 │
+├── index.html          # Live interactive dashboard
 ├── README.md
 └── requirements.txt
